@@ -386,6 +386,28 @@ body::before {
     text-decoration: underline;
 }
 
+.platform-card h3 {
+    margin-bottom: 18px;
+    color: #2C3E50;
+}
+
+.platform-links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: grid;
+    gap: 12px;
+}
+
+.platform-links li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.platform-links li a:hover {
+    text-decoration: underline;
+}
+
 .certificate-grid {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
