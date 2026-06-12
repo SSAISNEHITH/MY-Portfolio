@@ -5,6 +5,10 @@
     font-family: 'Variable Sans-Serif', 'Segoe UI', sans-serif;
 }
 
+html {
+    font-size: 19px;
+}
+
 body {
     margin: 10px;
     padding: 0;
